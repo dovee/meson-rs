@@ -1,0 +1,9 @@
+[package]
+name = "meson"
+version = "1.0.0"
+authors = ["dovee <dovee@users.noreply.github.com>"]
+description = "A build dependency for meson"
+documentation = "https://docs.rs/meson/1.0.0"
+license = "MIT"
+
+[dependencies]
