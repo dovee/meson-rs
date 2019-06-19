@@ -20,8 +20,7 @@
 //! use std::path::PathBuf;
 //!
 //! fn main() {
-//!     let build_path = PathBuf::from(env::var("OUT_DIR").unwrap());
-//!     build_path.join("build");
+//!     let build_path = PathBuf::from(env::var("OUT_DIR").unwrap()).join("build");
 //!     let build_path = build_path.to_str().unwrap();
 //!
 //!     println!("cargo:rustc-link-lib=squid");
